@@ -12,7 +12,11 @@
         *{
             font-family: "Roboto", serif;
         }
-        a{
+        
+
+        .iniciar{
+            background-color: rgb(0, 132, 226);
+            color: white;
             text-decoration: none;
             border: 1px;
             border-radius: 6px;
@@ -20,12 +24,12 @@
             display: flex;
         }
 
-        .iniciar{
-            background-color: rgb(0, 132, 226);
-            color: white;
-        }
-
         .registra{
+            text-decoration: none;
+            border: 1px;
+            border-radius: 6px;
+            padding: 10px;
+            display: flex;
             background-color: white;
             color: rgb(0, 132, 226);
         }
@@ -62,7 +66,24 @@
            margin: 0%;
         }
 
+        .container img{
+            border-radius: 50%;
+            height: 70px;
+            width: 70px;
+            margin: 0;
+            text-align: center;
+        }
 
+        .container p{
+            margin-right: 50px;
+            text-align: center;
+        }
+
+        .reels p{
+            margin-right: 50px;
+            font-weight:bold ;
+            font-size: 13px;
+        }
         
             
     </style>
@@ -78,35 +99,76 @@
 
     <div class="linha"></div>
 
-    <div style="width:70%;margin:auto;margin-top:50px;align-items:center;display:flex">
-        <div >
-            <img src="logoinsta.png" alt="" style="border-radius:50% ;height:170px;margin-right:100px;">
+    <div style="width:70%;margin:auto;margin-top:50px">
+        <div style="display: flex;">
+            <div >
+                <img src="logoinsta.png" alt="" style="border-radius:50% ;height:170px;margin-right:100px;">
+            </div>
+    
+            <div>
+                <div style="align-items: center;display:flex;">
+                    <p style="margin-right: 50px;">ifrn_parelhas</p>
+                    <a class="seguir" href="">Seguir</a>
+                    <a class="enviarM" href="">Enviar mensagem</a>
+                    
+                </div>
+    
+                <div class="publicacoes" style="align-items: center;display:flex;">
+                    <p>475 publicações</p>
+                    <p>4823 seguidores</p>
+                    <p>A seguir 300</p>
+                </div>
+    
+                <div class="biografia">
+                    <p>IFRN - Campus Parelhas</p>
+                    <p>Perfil oficial do Campus Parelhas do IFRN</p>
+                    <p>Somos a flor do sertão potiguar, trazendo uma educação pública de qualidade...</p>
+                    <p style="color: rgb(156, 156, 156);">Rua Dr.Mauro Duarte, S/N José Clóvis, Parelhas 59360000</p>
+                    <p><a rel="stylesheet" href="https://portal.ifrn.edu.br/campus/parelhas/">🔗portal.ifrn.edu.br/campus/parelhas/</a></p>
+                </div>
+            </div>
         </div>
-
-        <div>
-            <div style="align-items: center;display:flex;">
-                <p style="margin-right: 50px;">ifrn_parelhas</p>
-                <a class="seguir" href="">Seguir</a>
-                <a class="enviarM" href="">Enviar mensagem</a>
-                
-            </div>
-
-            <div class="publicacoes" style="align-items: center;display:flex;">
-                <p>475 publicações</p>
-                <p>4823 seguidores</p>
-                <p>A seguir 300</p>
-            </div>
-
-            <div class="biografia">
-                <p>IFRN - Campus Parelhas</p>
-                <p>Perfil oficial do Campus Parelhas do IFRN</p>
-                <p>Somos a flor do sertão potiguar, trazendo uma educação pública de qualidade...</p>
-                <p style="color: rgb(156, 156, 156);">Rua Dr.Mauro Duarte, S/N José Clóvis, Parelhas 59360000</p>
-                <p><a rel="stylesheet" href="https://portal.ifrn.edu.br/campus/parelhas/">🔗portal.ifrn.edu.br/campus/parelhas/</a></p>
-            </div>
-        </div>
-
         
+        <div class="container" style="display: flex;margin-top:50px">
+            <div class="box"> 
+                <img src="SISU2019.png" alt="" >
+                <p>SISU 2019</p>
+            </div>
+
+            <div>
+                <img src="mulheresmil.png" alt="">
+                <p>MulheresMil 2018</p>
+            </div>
+
+            <div>
+                <img src="secitex.png" alt="">
+                <p>Secitex 2018</p>
+            </div>
+
+            <div>
+                <img src="expotec.png" alt="">
+                <p>Expotec 2018</p>
+            </div>
+
+            <div>
+                <img src="MulheresM2.png" alt="">
+                <p>Mulheres Mil</p>
+            </div>
+
+            <div>
+                <img src="EmNumeros.png" alt="">
+                <p>Em números</p>
+            </div>
+        </div>
+
+        <div class="linha"></div>
+  
+    </div>
+
+    <div class="reels" style="width:35%;margin:auto;display:flex;text-align:center">
+        <p>PUBLICAÇÕES</p>
+        <P>REELS</P>
+        <p>IDENTIFICAÇÕES</p>
     </div>
     
 </body>
